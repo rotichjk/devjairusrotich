@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio — Jairus Rotich</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="brand">
+      <img src="profile.jpg" alt="Logo of Jairus Rotich" class="brand-badge">
+      <span>Jairus Rotich</span>
+    </div>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bio.html">Bio</a></li>
+        <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+        <li><a href="elevator.html">Elevator&nbsp;Pitch</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container" style="padding:36px 0 48px">
+  <p class="kicker">Work</p>
+  <h2>Selected Projects</h2>
+
+  <div class="grid grid-2" style="margin-top:12px">
+    <!-- Project 1 -->
+    <article class="card">
+      <h3>RESTful API for Booking Service</h3>
+      <p>Designed and implemented a backend API with authentication, CRUD endpoints, and input validation. Focused on clean architecture and maintainability.</p>
+      <ul class="list-clean">
+        <li>Tech: Node/Express or PHP/Laravel (choose your stack)</li>
+        <li>Emphasis: robust routes, controllers, and tests</li>
+      </ul>
+      <p>
+        <!-- Replace with real links -->
+        <a class="button" href="#" aria-disabled="true">GitHub (soon)</a>
+        <a class="button ghost" href="#" aria-disabled="true">Live Demo (soon)</a>
+      </p>
+    </article>
+
+    <!-- Project 2 -->
+    <article class="card">
+      <h3>Student Management Dashboard</h3>
+      <p>Built server-side logic to manage students, lessons, and instructors with relational integrity and basic reporting.</p>
+      <ul class="list-clean">
+        <li>Tech: MySQL + backend framework</li>
+        <li>Highlights: schema design & FK constraints</li>
+      </ul>
+      <p>
+        <a class="button" href="#" aria-disabled="true">GitHub (soon)</a>
+        <a class="button ghost" href="#" aria-disabled="true">Live Demo (soon)</a>
+      </p>
+    </article>
+
+    <!-- Project 3 -->
+    <article class="card">
+      <h3>Portfolio Site (This Website)</h3>
+      <p>Lightweight, accessible, multi-page site with semantic HTML, responsive layout, and clear information architecture.</p>
+      <ul class="list-clean">
+        <li>Tech: HTML, CSS (no JS framework)</li>
+        <li>Focus: structure, accessibility, performance</li>
+      </ul>
+      <p>
+        <a class="button ghost" href="elevator.html">See Elevator Pitch</a>
+      </p>
+    </article>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    © <span id="y"></span> Jairus Rotich • <a href="mailto:jairus@example.com">Contact</a>
+  </div>
+</footer>
+<script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>

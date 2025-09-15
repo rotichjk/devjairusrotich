@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bio — Jairus Rotich</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="brand">
+      <img src="profile.jpg" alt="Logo of Jairus Rotich" class="brand-badge">
+      <span>Jairus Rotich</span>
+    </div>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bio.html" aria-current="page">Bio</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="elevator.html">Elevator&nbsp;Pitch</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container" style="padding:36px 0 48px">
+  <div class="grid grid-2">
+    <article class="card">
+      <p class="kicker">About</p>
+      <h2>Bio</h2>
+      <p>Hello, my name is <strong>Jairus Rotich</strong>. I am a computer science graduate with strong skills in backend development, problem-solving, and teamwork. My top three strengths are adaptability, analytical thinking, and a growth mindset. What sets me apart is my ability to break down complex problems and design efficient backend systems. I bring value by creating reliable digital solutions that improve access and opportunities for communities. I am currently seeking opportunities in software engineering where I can apply these skills and grow professionally. Let’s connect to explore how I can contribute to your team’s success.</p>
+      <div style="margin-top:14px">
+        <!-- Optionally add your resume later -->
+        <!-- <a class="button ghost" href="Jairus_Rotich_Resume.pdf">Download Resume</a> -->
+      </div>
+    </article>
+
+    <aside class="card">
+      <p class="kicker">Focus</p>
+      <h3>Core Skills</h3>
+      <ul class="list-clean">
+        <li>Backend Development (APIs, services, databases)</li>
+        <li>Problem-Solving & Systems Design</li>
+        <li>Teamwork & Communication</li>
+      </ul>
+      <h3 style="margin-top:14px">Tech Interests</h3>
+      <ul class="list-clean">
+        <li>Scalable services & cloud basics</li>
+        <li>Relational databases, SQL fundamentals</li>
+        <li>Clean code, testing culture, CI/CD basics</li>
+      </ul>
+    </aside>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    © <span id="y"></span> Jairus Rotich • <a href="mailto:jairus@example.com">Contact</a>
+  </div>
+</footer>
+<script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
